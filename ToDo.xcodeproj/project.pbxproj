@@ -12,6 +12,7 @@
 		FFD576DF1E6B12720091F529 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD576DD1E6B12720091F529 /* Main.storyboard */; };
 		FFD576E11E6B12720091F529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFD576E01E6B12720091F529 /* Assets.xcassets */; };
 		FFD576E41E6B12720091F529 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD576E21E6B12720091F529 /* LaunchScreen.storyboard */; };
+		FFD576EC1E6B1C340091F529 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD576EB1E6B1C340091F529 /* ToDoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FFD576E01E6B12720091F529 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFD576E31E6B12720091F529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFD576E51E6B12720091F529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD576EB1E6B1C340091F529 /* ToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				FFD576D91E6B12720091F529 /* AppDelegate.swift */,
 				FFD576DB1E6B12720091F529 /* ViewController.swift */,
+				FFD576EB1E6B1C340091F529 /* ToDoItem.swift */,
 				FFD576DD1E6B12720091F529 /* Main.storyboard */,
 				FFD576E01E6B12720091F529 /* Assets.xcassets */,
 				FFD576E21E6B12720091F529 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				FFD576DC1E6B12720091F529 /* ViewController.swift in Sources */,
 				FFD576DA1E6B12720091F529 /* AppDelegate.swift in Sources */,
+				FFD576EC1E6B1C340091F529 /* ToDoItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
